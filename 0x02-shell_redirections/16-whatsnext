@@ -1,4 +1,3 @@
 #!/bin/bash
-egrep -i "bin" /etc/passwd | wc -l
-
+egrep -iA 3 "root" /etc/passwd
 
